@@ -17,7 +17,7 @@
   "start": "vite",
   "build": "vite build",
   "predeploy": "npm run build",
-  "deploy": "your-deploy-command" // ex: Vercel CLI ou outro
+  "deploy": "your-deploy-command"
 },
   "devDependencies": {
     "gh-pages": "^6.3.0"
