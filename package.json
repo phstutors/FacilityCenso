@@ -4,24 +4,22 @@
   "homepage": "https://phstutors.github.io/FacilityCenso",
   "private": true,
   "dependencies": {
+    "framer-motion": "^10.16.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.22.0",
     "react-icons": "^4.12.0",
-    "framer-motion": "^10.16.4",
+    "react-router-dom": "^6.22.0",
     "recharts": "^2.8.2",
-    "xlsx": "^0.18.5",
-    "tailwindcss": "^3.3.0"
+    "tailwindcss": "^3.3.0",
+    "xlsx": "^0.18.5"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
-  },
+  "start": "vite",
+  "build": "vite build",
+  "predeploy": "npm run build",
+  "deploy": "your-deploy-command" // ex: Vercel CLI ou outro
+},
   "devDependencies": {
-    "gh-pages": "^6.0.0"
+    "gh-pages": "^6.3.0"
   }
 }
